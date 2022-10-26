@@ -2,11 +2,8 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        while (true)
-        {
-            int n = getNumber();
-            System.out.println("O valor digitado é: " + n);
-        }
+        int n = getNumber();
+        System.out.println("O valor digitado é: " + n);
     }
 
     public static int getNumber() {
@@ -19,6 +16,7 @@ public class Main {
 
         return Integer.parseInt(numero);
     }
+
     public static boolean eInteriro(String texto) {
         try {
             Integer.parseInt(texto);
